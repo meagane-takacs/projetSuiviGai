@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d21a81f2-8b6d-437b-95f7-4062a16faf65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dzFH1G6ovRAV9ix9s7GKNpQWDc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\PhpstormProjects\projetSuiviGAI" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d21a81f2-8b6d-437b-95f7-4062a16faf65" name="Default Changelist" comment="" />
+      <created>1593419922446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593419922446</updated>
+      <workItem from="1593419923934" duration="6970000" />
+      <workItem from="1593450679449" duration="1401000" />
+      <workItem from="1593498286633" duration="1111000" />
+      <workItem from="1593499791052" duration="4369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593419977080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593419977080" />
+    <state x="2450" y="435" key="NewPhpFileDialog" timestamp="1593504302187">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593499064162" />
+    <state x="2450" y="435" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1280.1024@1920.0.1280.1024" timestamp="1593504302187" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1593419937160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593419937160" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1593498289456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593498289456" />
+    <state x="786" y="89" width="1296" height="1015" key="dock-window-1" timestamp="1593498804806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="786" y="89" width="1296" height="1015" key="dock-window-1/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593498804806" />
+    <state x="1920" y="0" width="1296" height="1015" maximized="true" key="dock-window-2" timestamp="1593498877446">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1920" y="0" width="1296" height="1015" maximized="true" key="dock-window-2/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593498877446" />
+    <state x="610" y="153" width="1296" height="1015" key="dock-window-3" timestamp="1593422525977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="153" width="1296" height="1015" key="dock-window-3/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593422525977" />
+    <state x="1920" y="0" width="1296" height="1015" key="dock-window-4" timestamp="1593424598374">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1920" y="0" width="1296" height="1015" key="dock-window-4/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593424598374" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

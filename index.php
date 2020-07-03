@@ -11,7 +11,7 @@
 <H1>Bienvenue sur la page de suivi GAI</H1>
 
 <form name="login" method="post" action="index.php">
-    <p>Login : <input type="text" id="userid" name="userid"></p><br>
+    <p>Login : <input type="text" id="userId" name="userId"></p><br>
     <p>Password : <input type="password" id="password" name="password"></p><br>
 
 
@@ -19,30 +19,35 @@
 
     <?php
 
+    //variable que l'on définit à false par défaut= l'user et le password ne sont pas ok au départ puisqu'on à rien rentré
     $userOK = false;
     $passwordOK = false;
 
-    if (isset($_POST['userid'])) {
-        if (empty($_POST['userid'])) {
-            echo "Veuillez insérez un identifiant<br>";
-        } else {
-            $userOK = true;
+    if (isset($_POST['userId']))
+    {
+        if(!empty($_POST['userId']))
+        {
+            session_start();
+            $_SESSION['userid_session'] = $_POST['userId'];
+            $_SESSION['password_session'] = $_POST['password'];
+            include("connexion.php");
+            $resultat = $_SESSION['resultat'];
+            ?>
+            <SCRIPT language="Javascript">
+                 var affich_comment="<?php echo $resultat;?>";
+                alert(affich_comment);</SCRIPT>';
+            <?php
+            unset($_SESSION['resultat']);
         }
-    }
-
-    if (isset($_POST['password'])) {
-        if (empty($_POST['password'])) {
-            echo "Veuillez insérez un mot de passe<br>";
-        } else {
-            $passwordOK = true;
+        else
+        {
+            $resultat = "Veuillez insérer un identifiant"
+            ?>
+            <SCRIPT language="Javascript">
+                var affich_comment="<?php echo $resultat;?>";
+                alert(affich_comment);</SCRIPT>';
+            <?php
         }
-    }
-
-    if ($userOK==true && $passwordOK==true) {
-        session_start();
-        $_SESSION['userid_session'] = $_POST['userid'];
-        $_SESSION['password_session'] = $_POST['password'];
-        header('location: connexion.php');
     }
 
     ?>

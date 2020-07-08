@@ -3,19 +3,36 @@
 <head>
     <meta charset="utf-8">
     <title>Suivi GAI</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="suivi_gai_style.css">
 </head>
 
 <body>
+<div id="bandeau" class="bandeau">
+    <H1 class="titre">Bienvenue sur la page de suivi GAI</H1>
+</div>
 
-<H1>Bienvenue sur la page de suivi GAI</H1>
-
+<div class="formulaire">
 <form name="login" method="post" action="index.php">
-    <p>Login : <input type="text" id="userId" name="userId"></p><br>
-    <p>Password : <input type="password" id="password" name="password"></p><br>
 
+    <table>
+        <tr>
+            <td>Login :</td>
+            <td><input type="text" id="userId" name="userId" size="7"></td>
+        </tr>
+        <tr>
+            <td>Password :</td>
+            <td><input type="password" id="password" name="password" size="7"></td>
+        </tr>
+        <tr>
+            <td><input id="conn" type="submit" name="valider" value="Se connecter"></td>
+            <td>
+                <a href="register.php" target="_blank">
+                <button id="register" class="favorite styled" type="button" >S'enregistrer</button></a>
+            </td>
+        </tr>
+    </table>
 
-    <input type="submit" name="valider" value="Se connecter">
+</div>
 
     <?php
 
@@ -55,11 +72,7 @@
 
 </form>
 
-<a href="register.php" target="_blank">
-    <button class="favorite styled" type="button">
-        S'enregistrer
-    </button>
-</a>
+
 
 
 </body>

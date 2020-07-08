@@ -44,7 +44,6 @@ mysqli_close($base);
 
 // Je creer par défaut deux variable
 $accesVerrouille = "N";
-$correspondance = "oui";
 
 if (trim($accesVerrouille) == "Y")
 {

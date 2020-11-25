@@ -31,20 +31,20 @@ if (!$result)
 }
 if (mysqli_num_rows($result) > 0)
 {
-    ?><table border='2px'><tr class='Titres colonnes'><?php
+    echo "<table border='2px'><tr class='Titres colonnes'>";
+    echo "<td></td>";
+    echo "<td></td>";
     while ( $row = mysqli_fetch_assoc($result) )
-    {      
-            ?>
-                <td><?php  echo " ".$row['Field'];?></td>
-            
-    <?php    
+    {   
+        $field=$row['Field'];
+        echo "<td> $field</td>";
     }
-    ?></tr><?php
+    echo "</tr>" ;
 }
 
 
 
-$query = "SELECT * FROM images";
+$query = "SELECT * FROM images WHERE Region='Lille'";
 $result = mysqli_query($base, $query);
 if(!$result)
 {
@@ -68,15 +68,15 @@ while ($ligne = mysqli_fetch_array($result))
 {
     //echo print_r($ligne, true);
     
-    ?> <tr class='Valeurs'> <?php
+    echo "<tr class='Valeurs'>";
+    $id = $ligne['id'];
+    echo "<td><button><a href='modifier.php?id=$id'>Modifier</a></button></td>";
+    echo "<td><button class='favorite styled' type='button'>Supprimer</button> </td>";
     for($i=0; $i<count($ligne)/2; $i++)
-    {
-        ?>
-        <td><?php echo $ligne[$i];?></td>
-        
-    <?php
+    {    
+        echo "<td> $ligne[$i] </td>";
     }
-    ?> </tr> <?php
+    echo "</tr>";
 }
 
 

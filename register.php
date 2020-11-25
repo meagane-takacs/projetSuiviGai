@@ -1,3 +1,10 @@
+<?php
+/** Script register: propose l'enregistrement sur le site
+ * call by : index.php
+ */
+
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -5,7 +12,6 @@
     <title>register</title>
     <link rel="stylesheet" href="suivi_gai_style.css">
 </head>
-<?php include("fonctions.php")?>
 <body>
 
 <body>
@@ -38,7 +44,8 @@
 </form>
 
 <?php
-include("constantes.php");
+include_once("constantes.php");
+include_once("fonctions.php")
 
 //Si l'utilisateur clique sur valider, on récupère les valeurs
 if (isset ($_POST['valider'])){
@@ -57,7 +64,7 @@ if (isset ($_POST['valider'])){
     //Si l'adresse mail est remplie (pas vide)
     if(!empty($_POST['userMail']))
     {
-        //Si l'adresse mail n'est pas valide
+        //Si l'adresse mail n'est pas valide (fonction)
         if (!adresseMailValide($userMail))
         {
             $resultat = "Adresse mail non valide";
@@ -134,7 +141,7 @@ if (isset ($_POST['valider'])){
         exit();
     }
 
-    // Vérif terminée : on enregistre
+    // Vérif terminée : on enregistre (fonction)
     $result = EnregistrerTmp($userName, $userSurname, $userMail, $userIdentifiant);
 
 }

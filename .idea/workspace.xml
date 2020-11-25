@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d21a81f2-8b6d-437b-95f7-4062a16faf65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/suivi_gai_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/fonctions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gaisuiviproject" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -91,6 +87,8 @@
       <workItem from="1594018923864" duration="9776000" />
       <workItem from="1594036139801" duration="4849000" />
       <workItem from="1594104758372" duration="14864000" />
+      <workItem from="1594191684475" duration="1264000" />
+      <workItem from="1594369390825" duration="7285000" />
     </task>
     <servers />
   </component>
@@ -114,10 +112,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="431" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1594120209456" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593607659681">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594379246501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593607659681" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1594379246501" />
     <state width="1876" height="348" key="GridCell.Tab.0.bottom" timestamp="1594133851234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,10 +185,10 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="1920" y="0" width="1280" height="1024" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1593615305382" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1594191838451">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1594369392442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1594191838451" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1594369392442" />
     <state x="2357" y="337" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@1920.0.1280.1024" timestamp="1593586263549" />
     <state x="465" y="134" width="1296" height="1015" key="dock-window-1" timestamp="1593768258952">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -42,3 +42,9 @@
     display: flex;
     justify-content: center;
 }
+
+.Nom_intitule 
+{
+    border: "2px";
+    font-family: 'Courier New', Courier, monospace;
+}

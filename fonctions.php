@@ -70,7 +70,7 @@ function EnregistrerTmp($userName, $userSurname, $userMail, $userIdentifiant)
         $resultat = $rest;
         ?>
         <SCRIPT language="Javascript">
-            var affich_comment="<?php echo $resultat;?>";
+            var affich_comment="<?php echo "Votre mot de passe est:" .$resultat;?>";
             alert(affich_comment);</SCRIPT>';
         <?php
     }

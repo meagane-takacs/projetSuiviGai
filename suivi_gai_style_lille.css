@@ -1,0 +1,28 @@
+.tableau
+{
+    font-family: Consolas;
+    font-size: 14px;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:50%;
+}
+
+td
+{
+    border-width:1px;
+    border-style:solid; 
+    border-color:grey;
+    width:100%;
+}
+
+#keys {
+    font-family: Consolas;
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+button {
+    font-family:Consolas;
+}
+

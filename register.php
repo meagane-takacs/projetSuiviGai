@@ -45,10 +45,11 @@
 
 <?php
 include_once("constantes.php");
-include_once("fonctions.php")
+include_once("fonctions.php");
 
 //Si l'utilisateur clique sur valider, on récupère les valeurs
-if (isset ($_POST['valider'])){
+if (isset($_POST['valider']))
+{
     $userMail=$_POST['userMail'];
     $userIdentifiant=$_POST['userId'];
     $userName=$_POST['userName'];
